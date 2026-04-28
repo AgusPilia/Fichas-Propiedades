@@ -104,11 +104,3 @@ document.addEventListener("keydown", (event) => {
     showPhoto(activeIndex + 1);
   }
 });
-
-const contactForm = document.querySelector("#contact-form");
-const formStatus = document.querySelector("[data-form-status]");
-
-contactForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  formStatus.textContent = "Consulta preparada. Conectá este formulario a tu email, CRM o WhatsApp para publicarlo.";
-});
